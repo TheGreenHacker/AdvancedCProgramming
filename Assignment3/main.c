@@ -16,6 +16,7 @@ typedef struct emp_ {
     glthread_node_t glnode;
 } emp_t ;
 
+/* My code here */
 #define EMP employee
 
 #define offsetof(struct_name, field_name)  \
