@@ -6,12 +6,12 @@ Shared library for generic circular doubly linked list in C.
 Clone the LibraryDesigning repository:
     git clone https://github.com/TheGreenHacker/CLibraryDesigning
 
-Then, cd into the DLL_LIB directory and run:
-> cd CLibraryDesigning
-> mkdir build
-> cd build
-> make 
-> make install or sudo make install, depending on current user permissions
+Then, cd into the DLL_LIB directory and run the following commands in terminal:
+* cd CLibraryDesigning
+* mkdir build
+* cd build
+* make 
+* make install or sudo make install, depending on current user permissions
     
 This installs the library in /usr/local/lib
 
