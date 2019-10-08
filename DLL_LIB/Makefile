@@ -13,7 +13,7 @@ libdll.so: dll.o
 	$(CC) $(CFLAGS) dll.o -shared -o libdll.so
 
 install: libdll.so
-	install -m 0755 libdll.so /usr/local/bin
+	install -m 0755 libdll.so /usr/local/lib
 	ldconfig
 
 clean:
